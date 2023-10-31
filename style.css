@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: rgb(145, 58, 118);
+}
+
+#contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#foto {
+    width: 400px;
+}
+
+#zoom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#zoom p {
+    margin: 0 7px;
+}
